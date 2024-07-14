@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  
+  <link rel = "stylesheet" href = "/styles/reset.css">
+  <link rel = "stylesheet" href = "main.css">
+  <title>Flora Explorer</title>
+</head>
+<body>
+  <header>
+    <div class = "encabezado">
+      <img src="/assets/Planta1.png" alt="Planta1">
+      <h1>FloraExplorer</h1>
+      <img src="/assets/Planta1.png" alt="Planta2">
+    </div>
+  </header>
+  <main>
+    <section class = "seccion_formulario">
+      <h1 class = "titulo">AGREGAR <br>PLANTA:</h1>
+      <form class = "formulario_padre">
+        <input class = "formulario" id="nombre" type = "text" placeholder = "Nombre común...">
+        <input class="formulario dropbtn" type = "text" placeholder="Otro Nombre o Nombre cientifico...">
+        <div class="dropdown-content">           
+          <label for = "referrer"> Uso de La Planta
+            <select id = "referrer" name = "referrer">
+                <option value ="">(seleccione una)</option>
+                <option value ="1">Planta Alimenticia</option>
+                <option value ="2">Planta Medicinal</option>
+                <option value ="3">Planta Ornamental</option>
+                <option value ="4">Planta Arómatica</option>
+                <option value ="5">Planta Industrial</option>
+                <option value ="6">Planta Forrajera</option>
+                <option value ="7">Otra</option>
+            </select>
+          </label>
+        </div>
+        <input class = "formulario" id="imagen" type = "imagen" placeholder = "Imagen...">
+      </form>
+      <div class = "boton_padre">
+        <button class = "boton" id = "boton1" type="submit">Enviar</button>
+        <button class = "boton" id = "boton2" type="submit">Limpiar</button>
+      </div>
+    </section>
+    <h1 class = "titulo">MIS PLANTAS:</h1>
+    <section class = "verde">
+      <div class="planta">
+        <img class ="foto" src="/assets/Papayo1.png" alt = "Papayo"/>
+        <div class="nombre">
+          <div class="tipo">
+            <h2>Papaya</h2>
+            <h3>Frutal</h3>
+          </div>
+          <img class="borrar" src="/assets/delete1.png" />
+        </div>
+      </div>
+      <div class="planta">
+        <img class ="foto" src="/assets/Guadua1.png" alt = "Guadual"/>
+        <div class="nombre">
+          <div class="tipo">
+            <h2>Guadual</h2>
+            <h3>Maderable</h3>
+          </div>
+          <img class="borrar" src="/assets/delete1.png" />
+        </div>
+      </div>
+      <div class="planta">
+        <img class ="foto" src="/assets/Mango1.png" alt = "Mango"/>
+        <div class="nombre">
+          <div class="tipo">
+            <h2>Mango</h2>
+            <h3>Frutal</h3>
+          </div>
+          <img class="borrar" src="/assets/delete1.png" />
+        </div>
+      </div>
+      <div class="planta">
+        <img class ="foto" src="/assets/Yarumo1.png" alt = "Yarumo"/>
+        <div class="nombre">
+          <div class="tipo">
+            <h2>Yarumo</h2>
+            <h3>Productor Agua</h3>
+          </div>
+          <img class="borrar" src="/assets/delete1.png" />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class = "pie">
+        <img src="/assets/Planta1.png" alt="Planta1">
+        <div>
+          <h1>FloraExplorer</h1>
+          <h2 class = "subtitulo" >Desarrollado por Manuel Bastidas</h2>
+          <p class = "subtitulo">Julio 4 de 2024</p>
+        </div>
+        <img src="/assets/Planta1.png" alt="Planta2">
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

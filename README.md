@@ -3,7 +3,7 @@
 <h3>Flora Explorer</h3>
 
 -Estado del Proyecto: En Construcción
-
+<img src="assets/Guanabana1.png" alt="Guanabana">
 <h3>Autor Manuel Bastidas</h3>
-<h3>Versión 1.0 Procesos iniciales</h3>
+<h3>Versión 2.0 segunda mejora</h3>
 
